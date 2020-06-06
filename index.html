@@ -10,26 +10,64 @@
 </head>
 <body>
   <!-- Head -->
-  <h1 class="head col-12 text-center bg-color font-weight-light">FOTOGRAPHY STUDIO</h1>
+  <h1 class="head col-12 text-center bg-color font-weight-light hide-small hide-medium">FOTOGRAPHY STUDIO</h1>
     
-  <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-color nav-justified">
+  <!-- Navbar-small & medium -->
+  <div class="contianer">
+  <nav class="navbar navbar-expand-lg navbar-light bg-color nav-justified">
+    <!-- Hamburger Menu -->
+    <div class="container">
+      <!-- Logo -->
+      <a class="navbar-brand" href="index.html">
+         <span class="mx-1 hide-large hide-medium">Foto. Studio</span>
+         <span class="h4 mx-1 hide-large hide-small">Fotography Studio</span>
+      </a>
+      <!-- Hamburger Icon -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- .collapse.navbar-collapse 外層中斷點群組和隱藏導覽列內容 -->
+      <!-- 選單項目&漢堡式折疊選單 -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <!-- active 當前頁面 -->
+          <li class="nav-item active hide-large">
+            <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item hide-large">
+            <a class="nav-link" href="#">GALLERY</a>
+          </li>
+          <li class="nav-item hide-large">
+            <a class="nav-link" href="#">VIDEOS</a>
+          </li>
+          <li class="nav-item hide-large">
+            <a class="nav-link" href="#">INFO</a>
+          </li>
+          <li class="nav-item hide-large">
+            <a class="nav-link" href="#">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+        <!-- Navbar-large -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-color nav-justified">
         <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarSupportedContent">
           <div>
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
+            <li class="nav-item hide-small hide-medium">
               <a class="nav-link" href="#">HOME</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item hide-small hide-medium">
               <a class="nav-link" href="#">GALLERY</a>
             </li>
-            <li class="nav-item">           
+            <li class="nav-item hide-small hide-medium">           
               <a class="nav-link" href="#">VIDEOS</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item hide-small hide-medium">
               <a class="nav-link" href="#">INFO</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item hide-small hide-medium">
               <a class="nav-link" href="#">CONTACT</a>
             </li>
           </ul>

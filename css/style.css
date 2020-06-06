@@ -104,7 +104,12 @@ html{
 
 
 /* RWD */
-@media screen and (max-width: 1280px){
+@media screen and (min-width: 1281px){
+	.hide-large{
+		display: none;
+	}
+}
+@media screen and (min-width: 769px) and (max-width: 1280px){
 	.hide-large{
 		display: none;
 	}
@@ -113,8 +118,10 @@ html{
 	}
 }
 
-@media screen and (max-width: 768px){
-
+@media screen and (min-width: 321px) and (max-width: 768px){
+	.hide-medium{
+		display: none;
+	}
 }
 
 @media screen and (max-width: 320px){
@@ -122,7 +129,7 @@ html{
 		font-size: 16px;
 	}
 	.head{
-		font-size: 30px;
+		font-size: 1.5rem;
 	}
 	.hide-small{
 		display: none;
@@ -133,15 +140,4 @@ html{
 	}
 
 }
-/* 
-@media (max-width: 575.99px) {
-	
-}
 
-@media (min-width: 576px) and (max-width: 767.99px) { ... }
-
-@media (min-width: 768px) and (max-width: 991.99px) { ... }
-
-@media (min-width: 992px) and (max-width: 1199.99px) { ... }
-
-@media (min-width: 1200px) { ... } */
