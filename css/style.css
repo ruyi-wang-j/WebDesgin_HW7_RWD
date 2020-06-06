@@ -1,0 +1,147 @@
+/* for all */
+html{
+	font-size: 20px;
+}
+* {
+	box-sizing: border-box;
+}
+
+.bg-color{
+	background-color:#eee8dd;
+}
+
+
+/* Head */
+.head{
+	padding:30px 0 15px 0;
+	margin: 0;	
+	font-size: 3em;
+}
+
+
+/* Carousel */
+.carousel{
+	padding: 0 30px;
+}
+
+
+/* Concept */
+.decoration{
+	padding: 20px 0 15px 0;
+}
+
+.decoration-img{
+	width: 20%;
+}
+
+.container-concept{
+	padding: 0 0 30px 0;
+}
+
+
+/* Product */
+.container-product{
+	width: 100%;
+	padding: 0 15px;	
+}
+
+.product{
+	padding: 0;
+	background-color: #fff;
+}
+
+.product-text{
+	padding: 7px 0 25px 0;
+}
+
+
+.product-link{
+	color:gray;
+}
+
+.product-link:hover{
+	color: black;
+}
+
+
+/* Footer */
+.container-footer{
+	padding-top: 30px;
+	width: 100%;
+}
+
+/* Footer */
+.container-footer{
+	padding-top: 30px;
+	width: 100%; 
+}
+
+/* Footer_Line */
+.footer-line{
+	width: 100%;
+}
+
+.line{
+	width: 80%;
+	height: 1px;
+	border-radius: 3px;
+	background-color:gray;
+	
+}
+
+/* Footer_Name */
+.name{
+	color: gray;
+	padding: 20px 0 30px 0;
+}
+
+/* Footer_Media */  
+.media-object{
+	padding-bottom: 50px;
+	width: 35px;	
+	background-color: #eee8dd;
+}	
+
+
+/* RWD */
+@media screen and (max-width: 1280px){
+	.hide-large{
+		display: none;
+	}
+	.decoration-img{
+		width: 200px;
+	}
+}
+
+@media screen and (max-width: 768px){
+
+}
+
+@media screen and (max-width: 320px){
+	* {
+		font-size: 16px;
+	}
+	.head{
+		font-size: 30px;
+	}
+	.hide-small{
+		display: none;
+	}
+	.concept{
+		padding: 30px 15px 20px 15px;
+		font-size: 16px;
+	}
+
+}
+/* 
+@media (max-width: 575.99px) {
+	
+}
+
+@media (min-width: 576px) and (max-width: 767.99px) { ... }
+
+@media (min-width: 768px) and (max-width: 991.99px) { ... }
+
+@media (min-width: 992px) and (max-width: 1199.99px) { ... }
+
+@media (min-width: 1200px) { ... } */
